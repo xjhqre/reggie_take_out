@@ -1,7 +1,8 @@
 var web_prefix = '/front'
 
 function imgPath(path){
-    return '/common/download?name=' + path
+    // return '/common/download?name=' + path
+    return `https://reggie-xjhqre.oss-cn-hangzhou.aliyuncs.com/` + path
 }
 
 //将url传参转换为数组
